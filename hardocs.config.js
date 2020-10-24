@@ -1,1 +1,1 @@
-export default  { base: "/__tests__/mocks" }
+export default  { base: "" }
