@@ -2,14 +2,14 @@
   "name": "content-mapper",
   "version": "0.0.1",
   "description": "Aggregates metadata about contents and child contents into a content object",
+  "type": "module",
   "main": "main.js",
   "repository": "https://github.com/jurra/learn.oh.dev.git",
   "author": "Jose Carlos Urra <jose.urra86@gmail.com>",
   "scripts": {
     "start": "nodemon --exec babel-node main.js",
     "babel": "nodemon --exec babel-node",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd site && yarn build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
   "devDependencies": {

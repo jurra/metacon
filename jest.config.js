@@ -1,8 +1,9 @@
-module.exports = {
+export default {
     verbose: true,
     collectCoverage: true,
     collectCoverageFrom: [
-        "**/src/*.{js,jsx}",
+        "**/lib/*.{js,jsx}",
+        // "!**/lib/__tests__/mocks/*.js",
         "!**/node_modules/**",
         "!**/vendor/**",
         "!**/mocks/**"

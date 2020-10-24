@@ -1,3 +1,1 @@
-module.exports =  {
-    base: "../../site/src/"
-}
+export default  { base: "/__tests__/mocks" }
