@@ -1,0 +1,89 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "Content",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "type": "module",
+            "title": "Basic arduino",
+            "description": "You will make sure to cover the basics of programming arduion, etc.",
+            "isPublic": true,
+            "isDraft": false,
+            "level": 2
+        }
+    ],
+    "required": [
+        "type",
+        "title",
+        "description",
+        "isPublic",
+        "isDraft",
+        "level"
+    ],
+    "properties": {
+        "type": {
+            "$id": "#/properties/type",
+            "type": "string",
+            "title": "The type schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "module"
+            ]
+        },
+        "title": {
+            "$id": "#/properties/title",
+            "type": "string",
+            "title": "The title schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Basic arduino"
+            ]
+        },
+        "description": {
+            "$id": "#/properties/description",
+            "type": "string",
+            "title": "The description schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "You will make sure to cover the basics of programming arduion, etc."
+            ]
+        },
+        "isPublic": {
+            "$id": "#/properties/isPublic",
+            "type": "boolean",
+            "title": "The isPublic schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+                true
+            ]
+        },
+        "isDraft": {
+            "$id": "#/properties/isDraft",
+            "type": "boolean",
+            "title": "The isDraft schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+                false
+            ]
+        },
+        "level": {
+            "$id": "#/properties/level",
+            "type": "integer",
+            "title": "The level schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                2
+            ]
+        }
+    },
+    "additionalProperties": true
+}

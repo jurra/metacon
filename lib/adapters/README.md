@@ -1,0 +1,2 @@
+# Here we have the adpaters that process output from models
+An adapter converts the model output into a format that a software can use. For instance for the particular use case of vuepress, we need to translate the output contents of the model into the sidebar format that vuepress requires. 
