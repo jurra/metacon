@@ -10,7 +10,7 @@
     "babel": "nodemon --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "nodemonConfig":{
+  "nodemonConfig": {
     "ignore": "contents.data.json"
   },
   "license": "GPLv2",
