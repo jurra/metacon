@@ -11,6 +11,9 @@
     "babel": "nodemon --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "nodemonConfig":{
+    "ignore": "contents.data.json"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.6",
