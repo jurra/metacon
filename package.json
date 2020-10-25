@@ -1,7 +1,7 @@
 {
-  "name": "content-mapper",
+  "name": "metacon",
   "version": "0.0.1",
-  "description": "Aggregates metadata about contents and child contents into a content object",
+  "description": "Aggregates metadata describing contents and child contents into a content object",
   "main": "main.js",
   "repository": "https://github.com/jurra/learn.oh.dev.git",
   "author": "Jose Carlos Urra <jose.urra86@gmail.com>",
@@ -13,7 +13,7 @@
   "nodemonConfig":{
     "ignore": "contents.data.json"
   },
-  "license": "MIT",
+  "license": "GPLv2",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/node": "^7.10.5",
