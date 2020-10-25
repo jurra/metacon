@@ -1,8 +1,8 @@
-import path from 'path'
-import { buildContents } from "./lib/contentsBuilder.js"
-import { buildSidebar } from "./lib/adapters/vuepress.js"
+const path = require('path')
+const {buildContents} = require ("./lib/contentsBuilder.js")
+const {buildSidebar} = require ("./lib/adapters/vuepress.js")
 
-export {
+module.exports = {
     buildContents,
     buildSidebar
 }
@@ -11,6 +11,7 @@ export {
 // console.log(__dirname)
 
 // let contents = buildContents(`${__dirname}/lib/__tests__/mocks/site/`, __dirname)
+// console.log(contents)
 // let sidebar = buildSidebar(contents)
 
 // console.log(sidebar)
