@@ -1,9 +1,9 @@
 {
   "name": "metacon",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Aggregates metadata describing contents and child contents into a content object",
   "main": "main.js",
-  "repository": "https://github.com/jurra/learn.oh.dev.git",
+  "repository": "https://github.com/jurra/metacon.git",
   "author": "Jose Carlos Urra <jose.urra86@gmail.com>",
   "scripts": {
     "start": "nodemon --exec babel-node main.js",
