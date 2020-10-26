@@ -3,6 +3,7 @@ Aggregates metadata describing contents and child contents into a content object
 
 ## Motivation
 **Problem**: When I use vuepress, sidebars are normally configured manually. 
+
 **Solution**:This library automates the process by creating an object aggregating metadata files which are then can be used for different purposes.
 
 ### General use case:
@@ -36,13 +37,16 @@ level: 2
 ```
 
 ### Create urls and sidebars based on folders containing metadata
-```js
-const path = require('path')
-const { buildContents, buildSidebar } = require('metacon');
+⚠ The current workflow is far from ideal and requires a lot of improvements still. Now I have to use a `main.js` and require the buildContents function from the library, run this main script before every develop, to get the contents.js metadata.
 
-let dirPath = path.join(__dirname, '../')
-let contents = buildContents(dirPath, __dirname)
-let modules = buildSidebar(contents)
+```js
+const fs = require('fs')
+const path = require('path')
+const { buildSidebar } = require('metacon')
+
+let contents = require('./contents.data.json')
+contents = contents.contents
+let modules = buildSidebar(contents, path.join( __dirname, '../'))
 
 module.exports = {
   themeConfig: {
