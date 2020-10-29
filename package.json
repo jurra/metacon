@@ -1,6 +1,6 @@
 {
   "name": "metacon",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Aggregates metadata describing contents and child contents into a content object",
   "main": "main.js",
   "repository": "https://github.com/jurra/metacon.git",
