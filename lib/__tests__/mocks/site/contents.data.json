@@ -1,0 +1,38 @@
+{"contents":[
+  {
+    "description": "You will make sure to cover the basics of programming arduion, etc.",
+    "title": "Basic arduino",
+    "isPublic": true,
+    "isDraft": false,
+    "type": "module",
+    "level": 2,
+    "parent": null,
+    "children": [],
+    "relativePath": "/modulo/",
+    "authors": ""
+  },
+  {
+    "description": "Aqui iria un summary del modulo",
+    "title": "Demostración",
+    "isPublic": true,
+    "isDraft": false,
+    "type": "module",
+    "level": 2,
+    "parent": null,
+    "children": [],
+    "relativePath": "/modulo_1/",
+    "authors": ""
+  },
+  {
+    "description": "A module from jose",
+    "title": "Hey Jose",
+    "isPublic": true,
+    "isDraft": false,
+    "type": "section",
+    "level": 2,
+    "parent": null,
+    "children": [],
+    "relativePath": "/modulo_2/",
+    "authors": ""
+  }
+]}
